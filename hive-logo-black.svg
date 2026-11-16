@@ -1,13 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 37.125" width="1740" height="371">
   <title>Hive logo in black</title>
-  <defs>
-    <filter id="black" color-interpolation-filters="sRGB">
-      <feColorMatrix type="matrix" values="
-        0 0 0 0 0
-        0 0 0 0 0
-        0 0 0 0 0
-        0 0 0 1 0" />
-    </filter>
-  </defs>
-  <image href="https://raw.githubusercontent.com/LukaG711/LukaG711/main/hive-logo.svg" x="0" y="0" width="174" height="37.125" filter="url(#black)" />
+  <g transform="translate(42, 0) scale(0.4125)">
+    <g fill="#000000" transform="skewX(-10)">
+      <path d="M20 6h20v28h31V6h20v77H71V52H40v31H20zM106 6h20v77h-20zM140 6h22l19 51 19-51h22l-31 77h-20zM236 6h69v18h-49v12h40v16h-40v13h49v18h-69z"/>
+    </g>
+  </g>
 </svg>
