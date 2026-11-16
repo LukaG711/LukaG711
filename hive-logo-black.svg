@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 37.125" width="1740" height="371">
+  <title>Hive logo in black</title>
+  <defs>
+    <filter id="black" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 0 0
+        0 0 0 1 0" />
+    </filter>
+  </defs>
+  <image href="https://raw.githubusercontent.com/LukaG711/LukaG711/main/hive-logo.svg" x="0" y="0" width="174" height="37.125" filter="url(#black)" />
+</svg>
