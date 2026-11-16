@@ -1,22 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-label="Hive logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="Hive logo light version">
   <defs>
     <linearGradient id="bgLight" x1="0%" x2="100%" y1="0%" y2="100%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#edf3ff"/>
+      <stop offset="100%" stop-color="#edf4ff"/>
     </linearGradient>
     <radialGradient id="glowLight" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7eeaff" stop-opacity="0.9"/>
-      <stop offset="42%" stop-color="#6f8bff" stop-opacity="0.7"/>
-      <stop offset="75%" stop-color="#ff7ad9" stop-opacity="0.48"/>
-      <stop offset="100%" stop-color="#ff7ad9" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#80ecff" stop-opacity="0.8"/>
+      <stop offset="32%" stop-color="#6b7cff" stop-opacity="0.72"/>
+      <stop offset="68%" stop-color="#ff76d8" stop-opacity="0.46"/>
+      <stop offset="100%" stop-color="#ff76d8" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="hexGradLight" x1="0%" x2="100%" y1="0%" y2="100%">
-      <stop offset="0%" stop-color="#0b1328"/>
-      <stop offset="25%" stop-color="#253d7a"/>
-      <stop offset="60%" stop-color="#2d3e89"/>
-      <stop offset="100%" stop-color="#111111"/>
+    <linearGradient id="hexLight" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1830"/>
+      <stop offset="30%" stop-color="#214390"/>
+      <stop offset="70%" stop-color="#293f8d"/>
+      <stop offset="100%" stop-color="#0d1018"/>
     </linearGradient>
-    <filter id="softGlowLight" x="-60%" y="-60%" width="220%" height="220%">
+    <filter id="glowFilterLight" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="18" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -25,28 +25,28 @@
     </filter>
   </defs>
 
-  <rect x="0" y="0" width="1280" height="420" rx="42" fill="url(#bgLight)"/>
-  <circle cx="580" cy="210" r="190" fill="url(#glowLight)"/>
+  <rect width="1200" height="360" fill="url(#bgLight)"/>
+  <circle cx="420" cy="180" r="180" fill="url(#glowLight)" opacity="0.9"/>
 
-  <g transform="translate(130 70)" filter="url(#softGlowLight)">
-    <polygon points="120,0 220,60 220,180 120,240 20,180 20,60" fill="none" stroke="url(#hexGradLight)" stroke-width="12"/>
-    <polygon points="120,30 190,72 190,168 120,210 50,168 50,72" fill="rgba(28,40,80,0.06)" stroke="rgba(10,10,20,0.7)" stroke-width="2"/>
-    <path d="M120 60 L170 90 L170 150 L120 180 L70 150 L70 90 Z" fill="url(#hexGradLight)" opacity="0.96"/>
-    <path d="M120 90 L147 108 L147 144 L120 162 L93 144 L93 108 Z" fill="#f5f9ff" opacity="0.9"/>
-    <path d="M115 120 L120 115 L125 120 L120 125 Z" fill="#111111" opacity="0.9"/>
-    <path d="M87 118 L120 96 L153 118" fill="none" stroke="#121b2b" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
+  <g transform="translate(80 40)" filter="url(#glowFilterLight)">
+    <polygon points="120,0 220,60 220,180 120,240 20,180 20,60" fill="none" stroke="url(#hexLight)" stroke-width="12"/>
+    <polygon points="120,28 188,68 188,172 120,212 52,172 52,68" fill="rgba(21,30,52,0.04)" stroke="rgba(10,14,25,0.55)" stroke-width="2"/>
+    <path d="M120 62 L168 90 L168 146 L120 174 L72 146 L72 90 Z" fill="url(#hexLight)" opacity="0.96"/>
+    <path d="M120 90 L145 106 L145 140 L120 156 L95 140 L95 106 Z" fill="#f7fbff" opacity="0.94"/>
+    <path d="M116 119 L120 116 L124 119 L120 123 Z" fill="#111111"/>
+    <path d="M90 118 L120 96 L150 118" fill="none" stroke="#101827" stroke-width="5" stroke-linecap="round"/>
   </g>
 
-  <g fill="#111111" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="6">
-    <text x="430" y="195" font-size="128">HIVE</text>
-    <text x="436" y="252" font-size="28" fill="#3d4d7a" letter-spacing="10">BUILD • SHIP • AMPLIFY</text>
+  <g fill="#101827" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="6">
+    <text x="420" y="170" font-size="118">HIVE</text>
+    <text x="426" y="220" font-size="24" fill="#465c9d" letter-spacing="8">BUILD • SHIP • AMPLIFY</text>
   </g>
 
   <g opacity="0.9">
-    <circle cx="1070" cy="120" r="7" fill="#1aaed8"/>
-    <circle cx="1106" cy="120" r="7" fill="#4159c9"/>
-    <circle cx="1142" cy="120" r="7" fill="#ff5edb"/>
-    <path d="M1020 310 L1090 260 L1155 310" fill="none" stroke="#253f8e" stroke-width="8" stroke-linejoin="round" opacity="0.8"/>
-    <path d="M1080 310 L1120 270 L1160 310" fill="none" stroke="#ff5edb" stroke-width="8" stroke-linejoin="round" opacity="0.8"/>
+    <circle cx="990" cy="92" r="7" fill="#1aaed8"/>
+    <circle cx="1026" cy="92" r="7" fill="#4559d4"/>
+    <circle cx="1062" cy="92" r="7" fill="#ff5edb"/>
+    <path d="M936 258 L1008 214 L1078 258" fill="none" stroke="#24459a" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M1000 258 L1036 226 L1072 258" fill="none" stroke="#ff5edb" stroke-width="7" stroke-linejoin="round"/>
   </g>
 </svg>
