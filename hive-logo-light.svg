@@ -1,13 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 120" role="img" aria-label="Hive logo">
-  <g transform="translate(8,10)">
-    <path d="M64 6 L108 30 L108 78 L64 102 L20 78 L20 30 Z" fill="#111111"/>
-    <path d="M64 24 L86 36 L64 48 L42 36 Z" fill="#ffffff"/>
-    <path d="M42 40 L64 52 L64 80 L42 68 Z" fill="#111111" opacity="0.9"/>
-    <path d="M86 40 L64 52 L64 80 L86 68 Z" fill="#111111" opacity="0.9"/>
-    <path d="M64 24 L64 48 L42 36 Z" fill="#111111" opacity="0.65"/>
-    <path d="M64 24 L64 48 L86 36 Z" fill="#111111" opacity="0.65"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-label="Hive logo">
+  <defs>
+    <linearGradient id="bgLight" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#edf3ff"/>
+    </linearGradient>
+    <radialGradient id="glowLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7eeaff" stop-opacity="0.9"/>
+      <stop offset="42%" stop-color="#6f8bff" stop-opacity="0.7"/>
+      <stop offset="75%" stop-color="#ff7ad9" stop-opacity="0.48"/>
+      <stop offset="100%" stop-color="#ff7ad9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hexGradLight" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b1328"/>
+      <stop offset="25%" stop-color="#253d7a"/>
+      <stop offset="60%" stop-color="#2d3e89"/>
+      <stop offset="100%" stop-color="#111111"/>
+    </linearGradient>
+    <filter id="softGlowLight" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="420" rx="42" fill="url(#bgLight)"/>
+  <circle cx="580" cy="210" r="190" fill="url(#glowLight)"/>
+
+  <g transform="translate(130 70)" filter="url(#softGlowLight)">
+    <polygon points="120,0 220,60 220,180 120,240 20,180 20,60" fill="none" stroke="url(#hexGradLight)" stroke-width="12"/>
+    <polygon points="120,30 190,72 190,168 120,210 50,168 50,72" fill="rgba(28,40,80,0.06)" stroke="rgba(10,10,20,0.7)" stroke-width="2"/>
+    <path d="M120 60 L170 90 L170 150 L120 180 L70 150 L70 90 Z" fill="url(#hexGradLight)" opacity="0.96"/>
+    <path d="M120 90 L147 108 L147 144 L120 162 L93 144 L93 108 Z" fill="#f5f9ff" opacity="0.9"/>
+    <path d="M115 120 L120 115 L125 120 L120 125 Z" fill="#111111" opacity="0.9"/>
+    <path d="M87 118 L120 96 L153 118" fill="none" stroke="#121b2b" stroke-width="6" stroke-linecap="round" opacity="0.9"/>
   </g>
-  <g fill="#111111" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" letter-spacing="2">
-    <text x="142" y="78">HIVE</text>
+
+  <g fill="#111111" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="6">
+    <text x="430" y="195" font-size="128">HIVE</text>
+    <text x="436" y="252" font-size="28" fill="#3d4d7a" letter-spacing="10">BUILD • SHIP • AMPLIFY</text>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="1070" cy="120" r="7" fill="#1aaed8"/>
+    <circle cx="1106" cy="120" r="7" fill="#4159c9"/>
+    <circle cx="1142" cy="120" r="7" fill="#ff5edb"/>
+    <path d="M1020 310 L1090 260 L1155 310" fill="none" stroke="#253f8e" stroke-width="8" stroke-linejoin="round" opacity="0.8"/>
+    <path d="M1080 310 L1120 270 L1160 310" fill="none" stroke="#ff5edb" stroke-width="8" stroke-linejoin="round" opacity="0.8"/>
   </g>
 </svg>
