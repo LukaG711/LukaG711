@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 800" role="img" aria-labelledby="title desc">
+  <title id="title">HIVE dark banner</title>
+  <desc id="desc">Large HIVE wordmark with a horse silhouette on the left in white for dark mode.</desc>
+  <defs>
+    <style>
+      .txt { font-family: Arial, Helvetica, sans-serif; font-weight: 900; letter-spacing: -18px; }
+    </style>
+  </defs>
+  <g transform="translate(40,30)">
+    <path d="M370 190 C230 145, 145 84, 81 21 L126 64 C168 95, 180 120, 204 158 C165 165, 132 188, 110 218 C153 236, 187 223, 210 195 C231 213, 250 222, 285 221 C285 267, 272 309, 250 344 C236 366, 208 390, 173 390 C128 390, 93 357, 89 330 C76 352, 59 370, 35 382 C23 330, 33 278, 58 242 C27 208, 19 170, 27 130 C54 171, 82 196, 135 198 C124 128, 125 80, 164 48 C171 113, 210 150, 249 170 C283 155, 343 112, 370 83 L330 188 Z M220 273 C210 297, 197 318, 175 336 C205 348, 232 338, 248 312 C259 294, 260 269, 249 248 C235 255, 225 260, 220 273 Z M186 194 C150 199, 117 216, 97 244 C95 221, 93 203, 94 170 C125 156, 154 168, 186 194 Z" fill="#FFFFFF"/>
+    <path d="M240 100 L312 70 L326 29 L355 68 L402 42 L394 96 L448 102 L394 131 L418 175 L355 149 L330 196 L312 149 L254 170 L275 125 Z" fill="#FFFFFF" opacity="0.95"/>
+    <path d="M152 300 C195 362, 206 456, 138 500 C164 457, 189 436, 207 407 C223 379, 222 344, 195 314 C179 327, 166 332, 152 300 Z" fill="#FFFFFF" opacity="0.95"/>
+    <path d="M330 645 C398 620, 442 580, 470 540 C521 573, 570 598, 639 610 C605 677, 543 719, 465 732 C413 713, 369 680, 330 645 Z" fill="#FFFFFF"/>
+    <path d="M420 545 C444 487, 471 451, 517 420 C557 456, 579 506, 589 558 C582 602, 565 652, 523 679 C474 651, 442 609, 420 545 Z" fill="#FFFFFF"/>
+  </g>
+  <g transform="translate(560, 10)">
+    <text x="0" y="510" class="txt" font-size="650" fill="#FFFFFF">HIVE</text>
+  </g>
+</svg>
